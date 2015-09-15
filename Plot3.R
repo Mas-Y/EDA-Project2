@@ -1,9 +1,9 @@
 ## This first line will likely take a few seconds. Be patient!
 if(!exists("NEI")){
-  NEI <- readRDS("D:/r/Exploratory Data Analysis/Project/exdata-data-NEI_data/summarySCC_PM25.rds")
+  NEI <- readRDS("~/exdata-data-NEI_data/summarySCC_PM25.rds")
 }
 if(!exists("SCC")){
-  SCC <- readRDS("D:/r/Exploratory Data Analysis/Project/exdata-data-NEI_data/Source_Classification_Code.rds")
+  SCC <- readRDS("~/exdata-data-NEI_data/Source_Classification_Code.rds")
 }
 library(ggplot2)
 
